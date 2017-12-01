@@ -14,7 +14,7 @@
     <!-- BEGIN HEAD -->
     <head>
         <meta charset="utf-8"/>
-        <title>Andarchitects</title>
+        <title>Metronic "Asentus" Frontend Freebie</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta content="width=device-width, initial-scale=1" name="viewport"/>
         <meta content="" name="description"/>
@@ -55,8 +55,8 @@
                         <!-- Logo -->
                         <div class="logo">
                             <a class="logo-wrap" href="index.html">
-                                <img class="logo-img logo-img-main" src="resources/img/logo1.jpg" alt="Anirudh Logo">
-                                <img class="logo-img logo-img-active" src="resources/img/logo1.jpg" alt="Anirudh Logo">
+                                <img class="logo-img logo-img-main" src="resources/img/logo.png" alt="Asentus Logo">
+                                <img class="logo-img logo-img-active" src="resources/img/logo-dark.png" alt="Asentus Logo">
                             </a>
                         </div>
                         <!-- End Logo -->
@@ -66,9 +66,9 @@
                     <div class="collapse navbar-collapse nav-collapse">
                         <div class="menu-container">
                             <ul class="navbar-nav navbar-nav-right">
-                                <li class="nav-item"><a class="nav-item-child nav-item-hover active" href="index.html">Home</a></li>
+                                <li class="nav-item"><a class="nav-item-child nav-item-hover" href="index.html">Home</a></li>
                                 <li class="nav-item"><a class="nav-item-child nav-item-hover" href="pricing.html">Pricing</a></li>
-                                <li class="nav-item"><a class="nav-item-child nav-item-hover" href="/about">About</a></li>
+                                <li class="nav-item"><a class="nav-item-child nav-item-hover active" href="about.html">About</a></li>
                                 <li class="nav-item"><a class="nav-item-child nav-item-hover" href="products.html">Products</a></li>
                                 <li class="nav-item"><a class="nav-item-child nav-item-hover" href="faq.html">FAQ</a></li>
                                 <li class="nav-item"><a class="nav-item-child nav-item-hover" href="contact.html">Contact</a></li>
@@ -82,47 +82,44 @@
         </header>
         <!--========== END HEADER ==========-->
 
-        <!--========== SLIDER ==========-->
-        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-            <div class="container">
-                <!-- Indicators -->
-                <ol class="carousel-indicators">
-                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                </ol>
-            </div>
-
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner" role="listbox">
-                <div class="item active">
-                    <img class="img-responsive" src="resources/img/1920x1080/01.jpg" alt="Slider Image">
-                    <div class="container">
-                        <div class="carousel-centered">
-                            <div class="margin-b-40">
-                                <h1 class="carousel-title">andarchitects</h1>
-                                <p>anubhav ki architect vali website <br/> sahi dikh ri hai bhai ?</p>
-                            </div>
-                            <a href="#" class="btn-theme btn-theme-sm btn-white-brd text-uppercase">Explore</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <img class="img-responsive" src="resources/img/1920x1080/02.jpg" alt="Slider Image">
-                    <div class="container">
-                        <div class="carousel-centered">
-                            <div class="margin-b-40">
-                                <h2 class="carousel-title">andarchitects</h2>
-                                <p>anubhav ki architect vali website <br/> sahi dikh ri hai bhai ?</p>
-                            </div>
-                            <a href="#" class="btn-theme btn-theme-sm btn-white-brd text-uppercase">Explore</a>
-                        </div>
-                    </div>
-                </div>
+        <!--========== PARALLAX ==========-->
+        <div class="parallax-window" data-parallax="scroll" data-image-src="resources/img/1920x1080/01.jpg">
+            <div class="parallax-content container">
+                <h1 class="carousel-title">About Us</h1>
+                <p>Lorem ipsum dolor amet consectetur adipiscing dolore magna aliqua <br/> enim minim estudiat veniam siad venumus dolore</p>
             </div>
         </div>
-        <!--========== SLIDER ==========-->
+        <!--========== PARALLAX ==========-->
 
         <!--========== PAGE LAYOUT ==========-->
+        <!-- Features -->
+
+        <!-- End Features -->
+
+        <!-- About -->
+        <div class="content-lg container">
+            <div class="row margin-b-20">
+                <div class="col-sm-6">
+                    <h2>About</h2>
+                </div>
+            </div>
+            <!--// end row -->
+
+            <div class="row">
+                <div class="col-sm-7 sm-margin-b-50">
+                    <div class="margin-b-30">
+                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret dolore adipiscing elit sed tempor incididunt ut laboret dolore magna aliqua. Ut enimet minim veniam magna aliqua. Ut enim minim veniam exercitation laboris ut siad consequat siad minim enum esqudiat dolore.</p>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret tempor incididunt dolore magna consequat siad minim aliqua. Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret dolore magna aliqua. Ut enim minim veniam exercitation laboris ut siad consequat siad minim enum esqudiat dolore.</p>
+                </div>
+                <div class="col-sm-4 col-sm-offset-1">
+                    <img class="img-responsive" src="resources/img/640x380/01.jpg" alt="Our Office">
+                </div>
+            </div>
+            <!--// end row -->
+        </div>
+        <!-- End About -->
+
         <!-- Service -->
         <div class="bg-color-sky-light" data-auto-height="true">
             <div class="content-lg container">
@@ -221,65 +218,11 @@
         </div>
         <!-- End Service -->
 
-        <!-- Latest Products -->
-        <div class="content-lg container">
-            <div class="row margin-b-40">
-                <div class="col-sm-6">
-                    <h2>Latest Products</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret dolore magna aliqua enim minim veniam exercitation</p>
-                </div>
-            </div>
-            <!--// end row -->
-
-            <div class="row">
-                <!-- Latest Products -->
-                <div class="col-sm-4 sm-margin-b-50">
-                    <div class="margin-b-20">
-                        <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
-                            <img class="img-responsive" src="resources/img/970x647/01.jpg" alt="Latest Products Image">
-                        </div>
-                    </div>
-                    <h4><a href="#">Triangle Roof</a> <span class="text-uppercase margin-l-20">Management</span></h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>
-                    <a class="link" href="#">Read More</a>
-                </div>
-                <!-- End Latest Products -->
-
-                <!-- Latest Products -->
-                <div class="col-sm-4 sm-margin-b-50">
-                    <div class="margin-b-20">
-                        <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
-                            <img class="img-responsive" src="resources/img/970x647/02.jpg" alt="Latest Products Image">
-                        </div>
-                    </div>
-                    <h4><a href="#">Curved Corners</a> <span class="text-uppercase margin-l-20">Developmeny</span></h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>
-                    <a class="link" href="#">Read More</a>
-                </div>
-                <!-- End Latest Products -->
-
-                <!-- Latest Products -->
-                <div class="col-sm-4 sm-margin-b-50">
-                    <div class="margin-b-20">
-                        <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
-                            <img class="img-responsive" src="resources/img/970x647/03.jpg" alt="Latest Products Image">
-                        </div>
-                    </div>
-                    <h4><a href="#">Bird On Green</a> <span class="text-uppercase margin-l-20">Design</span></h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>
-                    <a class="link" href="#">Read More</a>
-                </div>
-                <!-- End Latest Products -->
-            </div>
-            <!--// end row -->
-        </div>
-        <!-- End Latest Products -->
-
         <!-- Testimonials -->
         <div class="content-lg container">
             <div class="row">
                 <div class="col-sm-9">
-                    <h2>Customer Reviews</h2>
+                    <h2>Notes From CEO</h2>
 
                     <!-- Swiper Testimonials -->
                     <div class="swiper-slider swiper-testimonials">
@@ -319,119 +262,65 @@
             <!--// end row -->
         </div>
         <!-- End Testimonials -->
-        <!-- Promo Section -->
-        <div class="promo-section overflow-h">
-            <div class="container">
-                <div class="clearfix">
-                    <div class="ver-center">
-                        <div class="ver-center-aligned">
-                            <div class="promo-section-col">
-                                <h2>Our Clients</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret dolore magna aliqua enim minim veniam exercitation ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret dolore magna aliqua enim minim veniam exercitation</p>
-                                <p>Ipsum dolor sit amet consectetur adipiscing elit sed tempor incididut ut sead laboret dolore magna aliqua enim minim veniam exercitation ipsum dolor sit amet consectetur adipiscing</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="promo-section-img-right">
-                <img class="img-responsive" src="resources/img/970x970/01.jpg" alt="Content Image">
-            </div>
-        </div>
-        <!-- End Promo Section -->
 
-        <!-- Work -->
-        <div class="bg-color-sky-light overflow-h">
+        <!-- Team -->
+        <div class="bg-color-sky-light">
             <div class="content-lg container">
                 <div class="row margin-b-40">
                     <div class="col-sm-6">
-                        <h2>Showcase</h2>
+                        <h2>Meet the Team</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret dolore magna aliqua enim minim veniam exercitation</p>
                     </div>
                 </div>
                 <!--// end row -->
 
-                <!-- Masonry Grid -->
-                <div class="masonry-grid">
-                    <div class="masonry-grid-sizer col-xs-6 col-sm-6 col-md-1"></div>
-                    <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-8">
-                        <!-- Work -->
-                        <div class="work wow fadeInUp" data-wow-duration=".3" data-wow-delay=".1s">
-                            <div class="work-overlay">
-                                <img class="full-width img-responsive" src="resources/img/800x400/01.jpg" alt="Portfolio Image">
+                <div class="row">
+                    <!-- Team -->
+                    <div class="col-sm-4 sm-margin-b-50">
+                        <div class="bg-color-white margin-b-20">
+                            <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                                <img class="img-responsive" src="resources/img/770x860/01.jpg" alt="Team Image">
                             </div>
-                            <div class="work-content">
-                                <h3 class="color-white margin-b-5">Art Of Coding</h3>
-                                <p class="color-white margin-b-0">Lorem ipsum dolor sit amet consectetur adipiscing</p>
-                            </div>
-                            <a class="content-wrapper-link" href="#"></a>
                         </div>
-                        <!-- End Work -->
+                        <h4><a href="#">Alicia Keys</a> <span class="text-uppercase margin-l-20">Project Manager</span></h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>
+                        <a class="link" href="#">Read More</a>
                     </div>
-                    <div class="masonry-grid-item col-xs-6 col-sm-6 col-md-4">
-                        <!-- Work -->
-                        <div class="work wow fadeInUp" data-wow-duration=".3" data-wow-delay=".2s">
-                            <div class="work-overlay">
-                                <img class="full-width img-responsive" src="resources/img/397x400/01.jpg" alt="Portfolio Image">
+                    <!-- End Team -->
+
+                    <!-- Team -->
+                    <div class="col-sm-4 sm-margin-b-50">
+                        <div class="bg-color-white margin-b-20">
+                            <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                                <img class="img-responsive" src="resources/img/770x860/02.jpg" alt="Team Image">
                             </div>
-                            <div class="work-content">
-                                <h3 class="color-white margin-b-5">Clean Design</h3>
-                                <p class="color-white margin-b-0">Lorem ipsum dolor sit amet consectetur adipiscing</p>
-                            </div>
-                            <a class="content-wrapper-link" href="#"></a>
                         </div>
-                        <!-- End Work -->
+                        <h4><a href="#">James Millner</a> <span class="text-uppercase margin-l-20">Lead Developer</span></h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>
+                        <a class="link" href="#">Read More</a>
                     </div>
-                    <div class="masonry-grid-item col-xs-6 col-sm-6 col-md-4">
-                        <!-- Work -->
-                        <div class="work wow fadeInUp" data-wow-duration=".3" data-wow-delay=".3s">
-                            <div class="work-overlay">
-                                <img class="full-width img-responsive" src="resources/img/397x300/01.jpg" alt="Portfolio Image">
+                    <!-- End Team -->
+
+                    <!-- Team -->
+                    <div class="col-sm-4 sm-margin-b-50">
+                        <div class="bg-color-white margin-b-20">
+                            <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                                <img class="img-responsive" src="resources/img/770x860/03.jpg" alt="Team Image">
                             </div>
-                            <div class="work-content">
-                                <h3 class="color-white margin-b-5">Clean Design</h3>
-                                <p class="color-white margin-b-0">Lorem ipsum dolor sit amet consectetur adipiscing</p>
-                            </div>
-                            <a class="content-wrapper-link" href="#"></a>
                         </div>
-                        <!-- End Work -->
+                        <h4><a href="#">Scarlet Johanson</a> <span class="text-uppercase margin-l-20">Designer</span></h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>
+                        <a class="link" href="#">Read More</a>
                     </div>
-                    <div class="masonry-grid-item col-xs-6 col-sm-6 col-md-4">
-                        <!-- Work -->
-                        <div class="work wow fadeInUp" data-wow-duration=".3" data-wow-delay=".4s">
-                            <div class="work-overlay">
-                                <img class="full-width img-responsive" src="resources/img/397x300/02.jpg" alt="Portfolio Image">
-                            </div>
-                            <div class="work-content">
-                                <h3 class="color-white margin-b-5">Clean Design</h3>
-                                <p class="color-white margin-b-0">Lorem ipsum dolor sit amet consectetur adipiscing</p>
-                            </div>
-                            <a class="content-wrapper-link" href="#"></a>
-                        </div>
-                        <!-- End Work -->
-                    </div>
-                    <div class="masonry-grid-item col-xs-6 col-sm-6 col-md-4">
-                        <!-- Work -->
-                        <div class="work wow fadeInUp" data-wow-duration=".3" data-wow-delay=".5s">
-                            <div class="work-overlay">
-                                <img class="full-width img-responsive" src="resources/img/397x300/03.jpg" alt="Portfolio Image">
-                            </div>
-                            <div class="work-content">
-                                <h3 class="color-white margin-b-5">Clean Design</h3>
-                                <p class="color-white margin-b-0">Lorem ipsum dolor sit amet consectetur adipiscing</p>
-                            </div>
-                            <a class="content-wrapper-link" href="#"></a>
-                        </div>
-                        <!-- End Work -->
-                    </div>
+                    <!-- End Team -->
                 </div>
-                <!-- End Masonry Grid -->
+                <!--// end row -->
             </div>
         </div>
-        <!-- End Work -->
+        <!-- End Team -->
         <!--========== END PAGE LAYOUT ==========-->
 
-        <!--========== FOOTER ==========-->
+       <!--========== FOOTER ==========-->
         <footer class="footer">
             <!-- Links -->
             <div class="footer-seperator">
@@ -501,12 +390,13 @@
         <script src="resources/vendor/swiper/js/swiper.jquery.min.js" type="text/javascript"></script>
         <script src="resources/vendor/masonry/jquery.masonry.pkgd.min.js" type="text/javascript"></script>
         <script src="resources/vendor/masonry/imagesloaded.pkgd.min.js" type="text/javascript"></script>
+        <script src="resources/vendor/jquery.parallax.min.js" type="text/javascript"></script>
 
         <!-- PAGE LEVEL SCRIPTS -->
         <script src="resources/js/layout.min.js" type="text/javascript"></script>
         <script src="resources/js/components/wow.min.js" type="text/javascript"></script>
         <script src="resources/js/components/swiper.min.js" type="text/javascript"></script>
-        <script src="resources/js/components/masonry.min.js" type="text/javascript"></script>
+         <script src="resources/js/components/wow.min.js" type="text/javascript"></script>
 
     </body>
     <!-- END BODY -->

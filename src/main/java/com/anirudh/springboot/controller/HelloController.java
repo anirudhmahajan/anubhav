@@ -13,6 +13,11 @@ public class HelloController {
    public String index() {
       return "index";
    }
+   
+   @RequestMapping("/about")
+   public String about() {
+      return "about";
+   }
 
    @PostMapping("/hello")
    public String sayHello(@RequestParam("name") String name, Model model) {
