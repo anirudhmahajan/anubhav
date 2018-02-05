@@ -19,14 +19,24 @@ public class HelloController {
        mail.setSubject("Sending Simple Email with JavaMailSender Example");
        mail.setContent("This tutorial demonstrates how to send a simple email using Spring Framework.");
 
-       emailService.sendSimpleMessage(mail);
+    //   emailService.sendSimpleMessage(mail);
        System.out.println("mail sent");
+      return "index";
+   }
+   
+   @RequestMapping("/index")
+   public String index1() {
       return "index";
    }
    
    @RequestMapping("/about")
    public String about() {
       return "about";
+   }
+   
+   @RequestMapping("/contact")
+   public String contact() {
+      return "contact";
    }
 
    @PostMapping("/hello")

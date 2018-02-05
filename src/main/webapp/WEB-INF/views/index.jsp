@@ -14,7 +14,7 @@
     <!-- BEGIN HEAD -->
     <head>
         <meta charset="utf-8"/>
-        <title>Andarchitects</title>
+        <title>A&darchitects</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta content="width=device-width, initial-scale=1" name="viewport"/>
         <meta content="" name="description"/>
@@ -54,9 +54,9 @@
 
                         <!-- Logo -->
                         <div class="logo">
-                            <a class="logo-wrap" href="index.html">
-                                <img class="logo-img logo-img-main" src="resources/img/logo1.jpg" alt="Anirudh Logo">
-                                <img class="logo-img logo-img-active" src="resources/img/logo1.jpg" alt="Anirudh Logo">
+                            <a class="logo-wrap" href="/index">
+                                <img class="logo-img logo-img-main" src="resources/img/logo-final.jpg" alt="Anirudh Logo">
+                                <img class="logo-img logo-img-active" src="resources/img/logo-final.jpg" alt="Anirudh Logo">
                             </a>
                         </div>
                         <!-- End Logo -->
@@ -66,12 +66,13 @@
                     <div class="collapse navbar-collapse nav-collapse">
                         <div class="menu-container">
                             <ul class="navbar-nav navbar-nav-right">
-                                <li class="nav-item"><a class="nav-item-child nav-item-hover active" href="index.html">Home</a></li>
-                                <li class="nav-item"><a class="nav-item-child nav-item-hover" href="pricing.html">Pricing</a></li>
-                                <li class="nav-item"><a class="nav-item-child nav-item-hover" href="/about">About</a></li>
-                                <li class="nav-item"><a class="nav-item-child nav-item-hover" href="products.html">Products</a></li>
-                                <li class="nav-item"><a class="nav-item-child nav-item-hover" href="faq.html">FAQ</a></li>
-                                <li class="nav-item"><a class="nav-item-child nav-item-hover" href="contact.html">Contact</a></li>
+                                <li class="nav-item"><a class="nav-item-child nav-item-hover active" href="/index">Home</a></li>
+                                <li class="nav-item"><a class="nav-item-child nav-item-hover" href="/about">About Us</a></li>
+                                <li class="nav-item"><a class="nav-item-child nav-item-hover" href="pricing.html">Team</a></li>
+                                <li class="nav-item"><a class="nav-item-child nav-item-hover" href="products.html">Portfolio</a></li>
+                                <li class="nav-item"><a class="nav-item-child nav-item-hover" href="faq.html">Services</a></li>
+                                <li class="nav-item"><a class="nav-item-child nav-item-hover" href="faq.html">Work with us</a></li>
+                                <li class="nav-item"><a class="nav-item-child nav-item-hover" href="/contact">Contact</a></li>
                             </ul>
                         </div>
                     </div>
@@ -99,10 +100,10 @@
                     <div class="container">
                         <div class="carousel-centered">
                             <div class="margin-b-40">
-                                <h1 class="carousel-title">andarchitects</h1>
-                                <p>anubhav ki architect vali website <br/> sahi dikh ri hai bhai ?</p>
+                                <h1 class="carousel-title" style="font-family:trajan pro;">a&d architects</h1>
+                                <!-- <p>anubhav ki architect vali website <br/> sahi dikh ri hai bhai ?</p> -->
                             </div>
-                            <a href="#" class="btn-theme btn-theme-sm btn-white-brd text-uppercase">Explore</a>
+                           <!--  <a href="#" class="btn-theme btn-theme-sm btn-white-brd text-uppercase">Explore</a> -->
                         </div>
                     </div>
                 </div>
@@ -111,10 +112,10 @@
                     <div class="container">
                         <div class="carousel-centered">
                             <div class="margin-b-40">
-                                <h2 class="carousel-title">andarchitects</h2>
-                                <p>anubhav ki architect vali website <br/> sahi dikh ri hai bhai ?</p>
+                                <h2 class="carousel-title" style="font-family:trajan pro;">a&d architects</h2>
+                                <!-- <p>anubhav ki architect vali website <br/> sahi dikh ri hai bhai ?</p> -->
                             </div>
-                            <a href="#" class="btn-theme btn-theme-sm btn-white-brd text-uppercase">Explore</a>
+                           <!--  <a href="#" class="btn-theme btn-theme-sm btn-white-brd text-uppercase">Explore</a> -->
                         </div>
                     </div>
                 </div>
